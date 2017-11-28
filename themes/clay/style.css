@@ -1,0 +1,126 @@
+/*
+Theme Name: Clay
+Theme URI: https://goldhat.ca/clay-theme
+Author: GoldHat Group
+Author URI: https://goldhat.ca
+Description: Base theme for Clay Framework sites
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: clay
+*/
+
+@import url("css/reset.css");
+@import url("css/grid.css");
+@import url("css/headers.css");
+@import url("css/typography.css");
+@import url("css/menu.css");
+@import url("css/footer.css");
+@import url("css/sidebar.css");
+@import url("css/widgets.css");
+@import url("css/woocommerce.css");
+@import url("css/projects.css");
+
+@import url("fonts/icomoon/style.css");
+
+body {
+	background-color: #000;
+	margin: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+	line-height: normal;
+}
+
+.site-main p {
+	margin: 20px 0;
+}
+
+#page {
+	background-color: #FFF;
+	margin: auto;
+}
+
+#header-top {
+	background: #F1C232;
+}
+
+.topbar-social img {
+	max-width: 24px;
+	max-width: 24px;
+	margin: 20px 9px 20px 9px;
+}
+
+#header {
+	border-bottom: solid 2px #F1C232;
+}
+
+.clay-logo {
+	margin: 10px 0;
+}
+
+.clay-copyright {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 0.7em;
+}
+
+.clay-content {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.footer-about-goldhat {
+	color: #262626;
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+#content {
+	margin: 30px 0 30px 0;
+}
+
+/* WooCommerce Breadcrumb */
+.woocommerce .woocommerce-breadcrumb {
+	font-size: 0.8em;
+	margin: 0 0 40px 0;
+}
+
+.content-area ul li {
+	margin: 12px 0 12px 45px;
+	list-style: disc;
+}
+
+.content-area ol li {
+	margin: 12px 0 12px 45px;
+	list-style: disc;
+}
+
+/* MailChimp Signup Form */
+.widget_mc4wp_form_widget {
+	margin: 0 0 30px 0;
+	border: solid 1px #ccc;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #F1C232;
+	color: #fff;
+}
+.widget_mc4wp_form_widget .form-group {
+	margin: 15px 0 15px 0;
+}
+.widget_mc4wp_form_widget h2 {
+	margin: 0 0 20px 0;
+	color: #000;
+	font-size: 1.4ems;
+	font-weight: bold;
+}
+.widget_mc4wp_form_widget p {
+	margin-bottom: 6px;
+}
+.widget_mc4wp_form_widget input,
+button[type=submit] {
+	margin: 0;
+	padding: 4px;
+	width: 100%;
+	box-sizing: border-box;
+}

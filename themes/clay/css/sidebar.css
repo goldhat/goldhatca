@@ -1,0 +1,22 @@
+.right-sidebar {
+	margin-left: 40px;
+}
+
+.right-sidebar a {
+	color: #F1C232;
+}
+.right-sidebar a:hover {
+	color: #000;
+}
+
+div.widget {
+	margin-bottom: 40px;
+}
+
+h2.widget-header {
+	font-size: 1.2em;
+	margin: 35px 0 12px 0;
+}
+h2.widget-header:first-child {
+	margin-top: 0;
+}

@@ -1,0 +1,16 @@
+#footer {
+	margin: 0px 0;
+}
+footer.footer {
+	background: #F1C232;
+	border-top: 10px solid #F1C232;
+	padding: 0px 0;
+}
+footer.subfooter {
+	background: #F1C232;
+	padding: 20px 0;
+}
+
+.footer-logo {
+
+}

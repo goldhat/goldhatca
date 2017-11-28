@@ -1,0 +1,36 @@
+/* All Widgets */
+.widget-area li {
+	margin: 20px 0;
+}
+.widget-area li a {
+	color: #858585;
+	line-height: 1.1em;
+}
+
+/* Recent Posts */
+.widget_recent_entries
+
+/* Categories */
+
+.widget_categories {
+
+}
+.widget_categories li {
+	border-bottom: solid 1px #d3d3d3;
+	padding: 12px 0 12px 12px;
+	margin: 0 0 12px 0;
+	font-size: 0.9em;
+}
+
+.widget_categories a {
+	color: #858585;
+	line-height: 1.1em;
+}
+
+.widget_categories li a:before {
+	position: absolute;
+  content: "\e900";
+	font-family: icomoon;
+	font-size: 0.9em;
+	margin-left: -12px;
+}

@@ -1,0 +1,30 @@
+.clay-project {
+	margin: 30px 0 30px 0;
+	padding: 0 10px 30px 10px;
+	border-bottom: solid 1px #EEE;
+}
+
+.project-url {
+	margin: 30px 0 15px 0;
+}
+.project-url a {
+	display: block;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+	font-size: 1.4em;
+	font-weight: bold;
+	background: #EEE;
+	border: solid 1px #000;
+	color: #000;
+
+}
+.project-url a:hover {
+	background: #AAA;
+}
+
+.clay-project h2.project-title {
+	font-size: 2.4em;
+	margin: 15px 0 25px 0;
+}
